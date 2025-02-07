@@ -24,13 +24,13 @@ class palindrome {
         int x = sc.nextInt();
         
         // Create an object of Solution class
-        Solution solution = new Solution();
+        palindrome p = new palindrome();
         
         // Call the instance method
-        boolean result = solution.isPalindrome(x);
+        boolean result = p.isPalindrome(x);
 
         // Print result
-        System.out.println("Is Palindrome? " + result);
+        System.out.println("Is Palindrome:: " + result);
 
         sc.close(); // Close the scanner to prevent resource leak
     }
